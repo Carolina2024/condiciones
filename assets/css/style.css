@@ -1,0 +1,110 @@
+* {
+  margin: 0px; /* margen 0 para la página */
+  padding: 0px; /* relleno 0 para la página */
+  box-sizing: border-box; /* tamaño de caja se incluye padding y border */
+}
+
+/* ESTILO SECTION 1 */
+.seccion1 {
+  display: flex; /* alinear contenido uno  al lado de otro */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  padding: 20px; /* relleno */
+}
+
+.seccion1 img {
+  width: 200px; /* ancho */
+  height: 200px; /* alto */
+}
+
+/* ESTILO SECTION 2 */
+.sec2 {
+  display: flex; /* alinear contenido uno  al lado de otro */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  flex-direction: column; /* dirección column */
+}
+
+.parr1 {
+  text-align: center; /* texto centrado */
+  font-size: 15px; /* tamaño de letra */
+  font-weight: 900;
+}
+
+.stickers {
+  display: flex; /* alinear contenido uno  al lado de otro */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  padding: 10px; /* relleno */
+}
+
+.stickers img {
+  width: 190px; /* ancho */
+  height: 190px; /* alto */
+}
+
+.imginp {
+  display: flex; /* alinear contenido uno  al lado de otro */
+  flex-direction: column; /* dirección column */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  padding: 10px; /* relleno */
+}
+
+#stick {
+  margin-bottom: 10px; /* margen abajo */
+}
+
+.boton1 {
+  padding-top: 20px; /* relleno arriba */
+  padding: 10px; /* relleno */
+  display: flex; /* alinear contenido uno  al lado de otro */
+  flex-direction: column; /* dirección column */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+}
+
+#btn1 {
+  font-size: 14px; /* tamaño letra */
+  background-color: rgb(219, 219, 220); /* color de fondo */
+  color: rgb(53, 51, 51); /* color de letra */
+  padding: 7px; /* relleno */
+  margin-top: 8px; /* margen arriba */
+  border-radius: 5px; /* borde redondeado */
+}
+
+/* ESTILO SECTION 3 */
+.sec3 {
+  display: flex; /* alinear contenido uno  al lado de otro */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  flex-direction: column; /* dirección column */
+}
+
+.texting {
+  margin-bottom: 10px; /* margen abajo */
+  font-weight: 900;
+  font-size: 18px; /* tamaño letra */
+}
+
+select {
+  background-color: rgb(197, 199, 198); /* color de fondo */
+}
+
+.ingresar {
+  padding: 10px; /* relleno */
+  display: flex; /* alinear contenido uno  al lado de otro */
+  flex-direction: column; /* dirección column */
+  justify-content: center; /* alinear contenido al centro */
+  align-items: center; /* alineación items al centro */
+  margin-top: 10px; /* margen arriba */
+}
+
+#ing {
+  font-size: 12px; /* tamaño letra */
+  background-color: rgb(222, 222, 222); /* color de fondo */
+  color: rgb(40, 39, 39); /* color letra */
+  padding: 5px; /* relleno */
+  border-radius: 5px; /* borde redondeado */
+  margin-bottom: 7px; /* margen abajo */
+}
